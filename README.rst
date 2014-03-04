@@ -125,6 +125,15 @@ Install PEAR and PEAR packages globally::
   pear install Validate-0.8.5
   pear install DB
 
+Or you may use the provided composer.json to use the PEAR dependencies locally::
+
+  editor /var/www/virtual/cpves/html/includes/config.inc.php
+  require_once ROOT.'/vendor/autoload.php'; ## comment this line out
+
+  cd /var/www/virtual/cpves/html
+  composer install
+
+
 perl
 ----
 
