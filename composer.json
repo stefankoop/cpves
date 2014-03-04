@@ -1,0 +1,24 @@
+{
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "pear.php.net"
+        }
+    ],
+    "require": {
+	"pear-pear/PEAR": "*",
+	"pear-pear/Archive_Tar": "*",
+        "pear-pear/Net_IPv6": "*",
+        "pear-pear/Net_DNS": "*",
+        "pear-pear/Net_CheckIP": "*",
+        "pear-pear/Validate": "0.8.5",
+        "pear-pear/DB": "*",
+        "pear-pear/Structures_Graph": "*",
+        "pear-pear/XML_Parser": "*",
+        "pear-pear/XML_Util": "*"
+    },
+    "autoload": {
+        "psr-0": { "PEAR": "" }
+    },
+    "include-path": ["."]
+}

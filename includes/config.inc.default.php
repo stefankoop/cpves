@@ -1,4 +1,7 @@
 <?php
+// comment out the following if you want to use the provided composer.json
+// require_once ROOT.'/vendor/autoload.php';
+
 require_once 'DB.php';
 require_once(ROOT . '/includes/des.inc.php');
 require_once 'Net/DNS.php';
